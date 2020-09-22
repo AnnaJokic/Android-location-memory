@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+>
+
+    <FrameLayout
+            android:id="@+id/map_main_more"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+
+
+    <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="lokacija"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+
+
+
+    />
+
+    <TextView
+            android:id="@+id/datum_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="16sp"
+            android:ellipsize="end"
+            android:hint="datum"
+    />
+
+
+
+
+    <TextView
+            android:id="@+id/lokacija_opis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="lokacija"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+
+
+
+
+    />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <Button
+                android:text="EDIT"
+                android:id="@+id/button_edit"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+        />
+
+        <Button
+                android:id="@+id/button_remove"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REMOVE"
+
+        />
+
+        <Button
+                android:id="@+id/button_cancel_edit"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CANCEL"
+
+        />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
